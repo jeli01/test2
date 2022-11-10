@@ -20,6 +20,7 @@ public class WebSocketHandler extends TextWebSocketHandler {
         System.out.println(message);
         session.sendMessage(new TextMessage("크크 아주 잘 보내줬구나"));
         System.out.println(session);
+        System.out.println("깃 테스트를 위함입니다.");
     }
 
     /* Client가 접속 시 호출되는 메서드 */
